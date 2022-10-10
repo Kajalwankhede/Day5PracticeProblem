@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class CoinFlip {
     public static void main(String[] args){
-
         int head=0,tail=0;
         double RandomCheck = 0;
         Scanner sc=new Scanner(System.in);
