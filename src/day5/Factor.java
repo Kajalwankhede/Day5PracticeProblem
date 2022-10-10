@@ -1,6 +1,6 @@
 package day5;
 import java.util.Scanner;
-public class Factors {
+public class Factor {
     void Display()
     {
         int num;
@@ -20,7 +20,7 @@ public class Factors {
     }
 
     public static void main(String[] args) {
-        Factors F=new Factors();
+        Factor F=new Factor();
         F.Display();
     }
 }
