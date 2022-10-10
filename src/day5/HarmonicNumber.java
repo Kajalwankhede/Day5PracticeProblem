@@ -6,7 +6,7 @@ public class HarmonicNumber {
    void display(){
        float sum = 0;
        Scanner sc = new Scanner(System.in);
-       System.out.println("Enter the no : ");
+       System.out.println("Enter the number : ");
        int number=sc.nextInt();
        for (int i = 2; i <= number; i++) {
            float harmonic = (float)1 / i;
