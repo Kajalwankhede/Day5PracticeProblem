@@ -16,7 +16,6 @@ public class Factors {
         }
         if (num > 2) {
             System.out.println(num);
-
         }
     }
 
