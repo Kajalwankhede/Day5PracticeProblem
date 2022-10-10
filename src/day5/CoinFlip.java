@@ -1,31 +1,23 @@
 package day5;
 import java.util.Scanner;
+    public class CoinFlip {
+        public static void main(String[] args) {
+            int num, HeadCount = 0, TailCount = 0;
+            double Heads, Tails;
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter Number of times you want to flip coin:");
+            num = sc.nextInt();
 
-public class CoinFlip {
-    public static void main(String[] args){
-        int head=0,tail=0;
-        double RandomCheck = 0;
-        Scanner sc=new Scanner(System.in);
-        System.out.println("The number of times to Flip Coin. : ");
-        int n=sc.nextInt();
-        int limit=n;
-        if(n == n) {
-            for (int i = 0; i < n; i++) {
-                RandomCheck =  (Math.random() * (1 - 0 + 1) + 0);
-                if (RandomCheck < 0.5) {
-                    head=head+1;
-                } else {
-                    tail=tail+1;}
+            for (int i = 0; i < num; i++){
+                double random=Math.random();
+                if (random < 0.5)
+                    HeadCount++;
+                else
+                    TailCount++;
             }
+            Heads= HeadCount / (double) num * 100;
+            Tails= TailCount / (double) num * 100;
+            System.out.println("Percentage of Heads: " +Heads+ "%");
+            System.out.println("Percentage of Tails: " +Tails+ "%");
         }
-        float percentage_Head=findPercentage(head,limit);
-        System.out.println("Percentage of Head = "+percentage_Head+"%");
-        float percentage_Tail=findPercentage(tail,limit);
-        System.out.println("Percentage of Tail = "+percentage_Tail+"%");
     }
-    public static float findPercentage(int side,int n) {
-        float percentage=(side*100)/n;
-        return percentage;
-    }
-
-}
