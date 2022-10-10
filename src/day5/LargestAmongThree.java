@@ -11,11 +11,11 @@ public class LargestAmongThree {
         System.out.println("Enter the Third Number : ");
         int num3 = sc.nextInt();
         if ((num1 > num2) && (num1 > num3))
-            System.out.println("Fist is Largest number = " + num1);
+            System.out.println("Fist is the Largest number = " + num1);
         else if ((num2 > num1) && (num2 > num3))
-            System.out.println("Second is Largest number = " + num2);
+            System.out.println("Second is the Largest number = " + num2);
         else
-            System.out.println("Third is Largest number = " + num3);
+            System.out.println("Third is the Largest number = " + num3);
     }
     public static void main(String[] args)
     {
