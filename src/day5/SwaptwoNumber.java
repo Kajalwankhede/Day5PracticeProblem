@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SwaptwoNumber {
     void swap(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("--Before swap:--");
+        System.out.println("---Before swap:---");
         System.out.println("Enter First number:");
         int num1 = sc.nextInt();
         System.out.println("Enter Second number:");
