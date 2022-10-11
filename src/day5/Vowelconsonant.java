@@ -4,8 +4,8 @@ public class Vowelconsonant {
     int Checkalphabate() {
         System.out.println("Enter the alphabet : ");
         Scanner sc = new Scanner(System.in);
-        char alphabet = sc.next().charAt(0);
-        switch (alphabet) {
+        char character = sc.next().charAt(0);
+        switch (character) {
             case 'a':
                 System.out.println("Alphabet = a is, a vowel");
                 break;
@@ -22,7 +22,7 @@ public class Vowelconsonant {
                 System.out.println("Alphabet = u is, a vowel");
                 break;
             default:
-                System.out.println("Alphabet = " + alphabet + " is, a consonant");
+                System.out.println("Alphabet = " + character + " is, a consonant");
                 break;
         }
 
