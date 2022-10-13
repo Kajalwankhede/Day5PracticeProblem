@@ -1,7 +1,5 @@
 package day5;
-
 import java.util.Scanner;
-
 public class HarmonicNumber {
    void display(){
        float sum = 0;

@@ -13,8 +13,10 @@ public class SwaptwoNumber {
         int temp = num2;
         num2 = num1;
         num1 = temp;
+        System.out.println("\n--After swap the result--");
+        System.out.println(" First Number:" + num1);
+        System.out.println(" Second Number:" + num2);
 
-        System.out.println("--After swap the result:--\n First Number:" + num1 + "\n Second Number:" + num2);
 
     }
     public static void main(String[] args) {

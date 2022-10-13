@@ -1,24 +1,20 @@
 package day5;
-
 import java.util.Scanner;
-
 public class PowerOfTwo {
-
-        void Display() {
-            System.out.println("Enter the number : ");
-            Scanner sc = new Scanner(System.in);
-            int number = sc.nextInt();
-            if ((number >= 0) && (number < 31)) {
-                System.out.println("2 Power n = " +  Math.pow(2, number) + "\nTable of power of 2 is " +
-                        "less than or equal to " +  Math.pow(2, number) + " : ");
-                for (int i = 0; i <= Math.pow(2, number); i++) {
-                    System.out.println("2 Power " + i + " : " +  Math.pow(2, i));
-                }
+    public static void GetPowerofTwo(int num) {
+        int a = 1, b = (int) Math.pow(2, num);
+        if (num >= 0 && num < 31) {
+            while (a < b) {
+                a = a * 2;
+                System.out.println(a);
             }
-        }
-    public static void main(String[] args) {
-            PowerOfTwo P=new PowerOfTwo();
-            P.Display();
-    }
+        } else
+            System.out.println("Invalid Number: ");
     }
 
+    public static void main(String[] args) {
+        int num = Integer.parseInt(args[0]);
+        System.out.println("\n The power table of 2 : ");
+        GetPowerofTwo(num);
+    }
+}

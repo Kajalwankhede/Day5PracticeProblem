@@ -12,7 +12,6 @@ void display(){
         System.out.println("Remainder = " + remainder);
         System.out.println("Quotient = " + quotient);
     }
-
     public static void main(String[] args) {
      QuotientandRemainder Q=new QuotientandRemainder();
      Q.display();

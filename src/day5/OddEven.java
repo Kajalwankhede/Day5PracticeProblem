@@ -1,7 +1,5 @@
 package day5;
-
 import java.util.Scanner;
-
 public class OddEven {
     void display() {
         Scanner reader = new Scanner(System.in);

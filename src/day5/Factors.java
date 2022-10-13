@@ -18,7 +18,6 @@ public class Factors {
             System.out.println(num);
         }
     }
-
     public static void main(String[] args) {
         Factors F=new Factors();
         F.Display();

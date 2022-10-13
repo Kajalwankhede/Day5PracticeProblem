@@ -17,7 +17,7 @@ import java.util.Scanner;
             }
             Heads= HeadCount / (double) num * 100;
             Tails= TailCount / (double) num * 100;
-            System.out.println("Percentage of Heads: " +Heads+ "%");
-            System.out.println("Percentage of Tails: " +Tails+ "%");
+            System.out.println("Percentage of Heads: " +Heads);
+            System.out.println("Percentage of Tails: " +Tails);
         }
     }

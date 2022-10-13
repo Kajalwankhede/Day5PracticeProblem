@@ -1,6 +1,5 @@
 package day5;
 import java.util.Scanner;
-
 public class LargestAmongThree {
     void display(){
         Scanner sc = new Scanner(System.in);

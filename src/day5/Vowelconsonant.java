@@ -25,10 +25,9 @@ public class Vowelconsonant {
                 System.out.println("Alphabet = " + character + " is, a consonant");
                 break;
         }
-
         return 0;
     }
-        public static void main(String[] args)
+    public static void main(String[] args)
         {
          Vowelconsonant V=new Vowelconsonant();
          V.Checkalphabate();
